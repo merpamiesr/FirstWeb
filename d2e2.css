@@ -8,6 +8,7 @@ h1,h2,h3,p,ul,li{
 }
 
 h1{
+  height: 10px;
   text-align: center;
 }
 
@@ -41,7 +42,6 @@ text-align: center;
 clear: both;
 }
 
-
 a.link{
   color: pink;
 }
@@ -51,17 +51,28 @@ a.link:hover{
   color: white;
 }
 
-.content-section{
-  float: right;
+.content-section-right{
   background-color: lightgray;
   padding: 24px;
-  width: 640px;
   height: 640px;
 }
 
-.content-section .content-text{
+.content-section-left{
+  float: left;
+  background-color: pink;
+  padding: 24px;
+  width: 650px;
+  height: 640px;
+}
 
+.content-section-center{
+  background-color: light-gray;
+  padding: 24px;
+  height: 640px;
+  clear: both;
+}
 
+.content-section-left .content-text{
 }
 
 div.test{
